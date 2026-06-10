@@ -1,5 +1,5 @@
 import { createInterface } from 'node:readline'
-import type { ApprovalDecision, ApprovalResponse, ApprovalSurface, PendingTask } from '../types.js'
+import type { ApprovalDecision, ApprovalResponse, ApprovalSurface, PendingTask } from '../types/index.js'
 
 const VALID_DECISIONS = new Set<string>(['approve', 'reject', 'escalate'])
 
